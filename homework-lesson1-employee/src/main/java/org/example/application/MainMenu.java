@@ -9,8 +9,9 @@ import java.util.Scanner;
 @RequiredArgsConstructor
 public class MainMenu {
     private static final String EMPLOYEE_MANAGEMENT_CHOICE = "1";
-    private static final String TIMESHEET_RECORD_MANAGEMENT_CHOICE = "2";
-    private static final String WORKSHOP_MANAGEMENT_CHOICE = "3";
+    private static final String WORKSHOP_MANAGEMENT_CHOICE = "2";
+
+    private static final String TIMESHEET_RECORD_MANAGEMENT_CHOICE = "3";
     private static final String WAGE_MANAGEMENT_CHOICE = "4";
     private final Scanner systemInScanner;
     private final EmployeeManagement employeeManagement;
@@ -50,9 +51,9 @@ public class MainMenu {
         String notification = String.format(notificationFormat,
                 EMPLOYEE_MANAGEMENT_CHOICE,
                 employeeManagement.menuName(),
-                TIMESHEET_RECORD_MANAGEMENT_CHOICE,
-                workshopManagement.menuName(),
                 WORKSHOP_MANAGEMENT_CHOICE,
+                workshopManagement.menuName(),
+                TIMESHEET_RECORD_MANAGEMENT_CHOICE,
                 timeSheetRecordManagement.menuName(),
                 WAGE_MANAGEMENT_CHOICE,
                 wageManagement.menuName()

@@ -50,8 +50,8 @@ public class EmployeeManagement {
         log.info("\n-- Nhap so dien thoai: ");
         String phoneNumber = systemInScanner.nextLine();
         log.info("\n-- Nhap Cap bac (1-7): ");
-
         int level = Integer.parseInt(systemInScanner.nextLine());
+
         return Employee.builder()
                 .id(id)
                 .fullName(fullName)

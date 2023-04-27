@@ -46,6 +46,7 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example.feature.impl" />
       <recent name="org.example.feature" />
+      <recent name="org.example.repo.impl" />
       <recent name="org.example.application" />
       <recent name="org.example.repo" />
     </key>
@@ -85,6 +86,7 @@
       <workItem from="1682564994383" duration="392000" />
       <workItem from="1682566278289" duration="1326000" />
       <workItem from="1682568143625" duration="47000" />
+      <workItem from="1682568440978" duration="3678000" />
     </task>
     <servers />
   </component>
