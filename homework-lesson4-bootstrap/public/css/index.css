@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+:root {
+  --secondary-color: #10c9c3;
+  --orange-color: #fc921d;
+  --orange-red-color: #ea5c2b;
+  --red-color: #b60b28;
+  --white-color: #ffffff;
+  --grey-color: #bfbfbf;
+  --beige-color: #fdf2de;
+  --green-color: #789c38;
+  --black-color: #333;
+  --alert-color: #e74c3c;
+}
+
+a {
+  color: var(--grey-color);
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--white-color);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  height: 100%;
+}
+
+header {
+  background-color: white;
+  height: 100px;
+}
+
+.navbar-brand {
+  height: 31px;
+}
+
+#banner {
+  background-image: url(../image/about-me/header-about-me.jpg);
+  height: 460px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  z-index: -1;
+}
+
+#number {
+  background-color: var(--secondary-color);
+  height: 250px;
+}
+
+.secondary-btn {
+  background-color: var(--secondary-color);
+  padding: 20px 25px;
+  display: inline-block;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: var(--white-color);
+  border: 0;
+}
+
+.secondary-btn:hover {
+  background-color: #252525;
+  padding: 20px 25px;
+  display: inline-block;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: var(--white-color);
+  border: 0;
+}
+
+footer {
+  display: block;
+  background-color: #141414;
+  height: 200px;
+  color: #bcbcbc;
+  font-size: 12px;
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 765px) {
+}
+
+@media (max-width: 576px) {
+}
